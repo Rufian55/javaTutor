@@ -30,6 +30,6 @@ public class Puppy2 {
 		
 		// Print instance vars.
 		System.out.println("The Puppy's name is: " + myPuppy.getName());
-		System.out.println("The Puppy's Age is: " + myPuppy.getAge());
+		System.out.println("The Puppy's age is: " + myPuppy.getAge());
 	}
 }
