@@ -1,10 +1,10 @@
 import java.io.*;
 public class Employee{
 	
-	String name;
-	int age;
-	String designation;
-	double salary;
+	public String name;
+	private int age;
+	public String designation;
+	private double salary;
 	
 	// Constructor for Employee class.
 	public Employee(String name) {
