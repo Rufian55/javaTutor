@@ -2,23 +2,20 @@ package tutor;
 
 public class Dog {
 	String name;
-	
+	String color;
+	String breed;
+	int ageC;
+
+	enum DogType{ PUPPY, YOUNG, GRIZZLED }
+	DogType type;
+
 	public void setName(String aName) {
 		name = aName;
 	}
 
-	String breed;
-
-	int ageC;
-
 	public int getAgeC(){
 		return ageC;
 	}
-	
-	String color;
-	
-	enum DogType{ PUPPY, YOUNG, GRIZZLED }
-	DogType type; 
 	
 	void barking(){
 		System.out.println("Deep Booming Bark!");
