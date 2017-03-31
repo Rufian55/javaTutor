@@ -16,7 +16,9 @@ public class EmployeeTest {
 		empTwo.empAge(25);
 		empTwo.empDesignation("The Alien Queen");
 		empTwo.empSalary(375000.00);
-		Employee.setFireable(true);
+		/* Below works, but since accessed from outside Employee
+		   class should be like line 13. "Employee.setFireable(true);" */
+		empTwo.setFireable(true);
 		empTwo.printEmployee();
 	}
 }
