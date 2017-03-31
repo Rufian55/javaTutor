@@ -10,11 +10,13 @@ public class EmployeeTest {
 		empOne.empAge(19);
 		empOne.empDesignation("Ruler of the Galaxy");
 		empOne.empSalary(1.99);
+		Employee.setFireable(false);
 		empOne.printEmployee();
 		
 		empTwo.empAge(25);
 		empTwo.empDesignation("The Alien Queen");
 		empTwo.empSalary(375000.00);
+		Employee.setFireable(true);
 		empTwo.printEmployee();
 	}
 }
