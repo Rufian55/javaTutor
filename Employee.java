@@ -1,33 +1,37 @@
+package tutor;
 import java.io.*;
-public class Employee{
-	
-	public String name;
-	private int age;
-	public String designation;
-	private double salary;
+
+public class Employee {
+	String name;
+	int age;
+	String designation;
+	double salary;
 	
 	// Constructor for Employee class.
-	public Employee(String name) {
+	public Employee(String name){
 		this.name = name;
 	}
 	
-	public void setEmpAge(int empAge){
+	// Assign age of Employee to int age.
+	public void empAge(int empAge){
 		age = empAge;
 	}
 	
-	public void setEmpDesignation(String empDesig){
+	// Assign Employee Designation to designation.
+	public void empDesignation(String empDesig){
 		designation = empDesig;
 	}
 	
-	public void setEmpSalary(double empSalary){
-		salary = empSalary;
+	// Assign Employee salary to salary.
+	public void empSalary(double empSal){
+		this.salary = empSal;
 	}
 	
-	// Print the Employee details.
+	// Print the employee's details.
 	public void printEmployee(){
 		System.out.println("Name: " + name);
 		System.out.println("Age: " + age);
 		System.out.println("Designation: " + designation);
-		System.out.println("Salary: " + salary);
+		System.out.println("Salary: $" + salary);
 	}
 }
