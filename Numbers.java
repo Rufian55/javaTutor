@@ -48,7 +48,7 @@ public class Numbers {
 		for (int i = 1; i < myList.length; i++) {
 			if (myList[i] > max) max = myList[i];
 	    }
-		System.out.println("Max is " + max);  
-	}
+		System.out.println("Max is " + max);
 
+	}
 }
