@@ -4,8 +4,7 @@ import java.util.*;
 public class GregorianCalendarDemo {
 
    public static void main(String args[]) {
-      String months[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
-    		  				"Aug", "Sep", "Oct", "Nov", "Dec"};
+      String months[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
       
       int year;
       // Create a Gregorian calendar initialized
