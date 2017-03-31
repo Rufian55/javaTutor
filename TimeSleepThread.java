@@ -15,7 +15,7 @@ public class TimeSleepThread {
 			System.out.printf("Elapsed time = %.3f seconds.\n", elapsedTime);
 		}
 		catch(Exception e) {
-			System.out.println("An Exception error has occurred!");
+			System.out.printf("An Exception error has occurred! %s\n", e);
 		}
 	}
 }
