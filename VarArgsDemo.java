@@ -2,7 +2,7 @@ package tutor;
 
 public class VarArgsDemo {
 	
-	public static void main(String []args){
+	public static void main(String[] args){
 		
 		printMax();
 		printMax(10, 20, 5, 69, 4, 4.4, 69.01, 69.1);
