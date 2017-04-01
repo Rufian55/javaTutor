@@ -37,7 +37,7 @@ public class BinarySearch {
 		else
 			System.out.println("\n" + seekThis + " was found at anArray[" + sought4 + "]");
 
-		if(seekThat < 0)// If seekThat is negative, it's the bitwise not of the insert point.
+		if(alsoSought4 < 0)// If seekThat is negative, it's the bitwise not of the insert point.
 			System.out.println("\nSought value \"" + seekThat + "\" not found.\n"
 					+ "Insertion point is anArray[" + (-(alsoSought4)-1) + "]");
 		else

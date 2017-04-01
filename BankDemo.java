@@ -16,6 +16,6 @@ public class BankDemo {
 			e.printStackTrace();
 		}
 	
-		System.out.println("Current Balance = " + c.getBalance());
+		System.out.println("Current Balance = " + c.getBalance() );
 	}
 }
