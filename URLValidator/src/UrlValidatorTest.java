@@ -1,7 +1,4 @@
 /*
- * CS362 Winter 2017
- * Final Project Part B
- * Team members: Linh Vu (vuli), Jessica Spokoyny (spokoynj), Chris Kearns (kearnsc)
  * Last updated: 18 Mar 2017
  * NOTES:
  *  - Constructors tested: default, ALLOW_ALL_SCHEMES, NO_FRAGMENTS,
